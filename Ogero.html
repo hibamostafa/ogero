@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="assets/images/table-colums.ico"
+		/>
+    <style>
+      body {
+        overflow: hidden;
+      }
+    </style>
+    <div class="shape2"></div>
+    <div class="shape1"></div>
+
+		<pre class="shape">Sortable Columns Table:
+
+    </pre>
+		<link rel="stylesheet" href="ogero2.css" />
+		<link rel="stylesheet" href="Ogero.css" />
+	</head>
+	<body>
+
+
+		<header class="c-header">
+			<h2 class="c-header__title">Sortable Columns Table</h2>
+			<h3 class="c-header__subtitle">
+				Directional Keys: <code>tab</code>, <code>shift+tab</code>,
+				<code>&#8593;</code>, <code>&#8595;</code>, <code>&#8592;</code>,
+				<code>&#8594;</code>, <code>w</code>, <code>s</code>, <code>a</code>,
+				<code>d</code>, <code>home</code>, <code>end</code>
+			</h3>
+			<h2 class="c-header__subtitle">
+				Trigger Column Sort Keys (column focus <br>required): <code>enter</code>,
+				<code>space</code>
+			</h2>
+		</header>
+		<main class="l-table-container">
+			<table class="c-table" role="grid" aria-readonly="true">
+				<thead class="c-table__head"></thead>
+				<tbody class="c-table__body"></tbody>
+			</table>
+		</main>
+		<script src="ogero.js"></script>
+	</body>
+</html>
